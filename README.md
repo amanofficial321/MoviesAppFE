@@ -70,6 +70,12 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
 NEXT_PUBLIC_STATIC_ASSETS_URL=http://localhost:5000
 ```
 
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
 🔐 **Login Credentials (For Testing)**  
 For simplicity, the backend uses hardcoded credentials.  
 Use the following details to log in:
@@ -77,10 +83,4 @@ Use the following details to log in:
 - **Email:** aman@test.com  
 - **Password:** password
 
-
-### 4️⃣ Run the development server
-
-```bash
-npm run dev
-```
 
