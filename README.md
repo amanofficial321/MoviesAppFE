@@ -33,3 +33,23 @@ Users can log in, create movies, update movies, upload posters, and view paginat
 | **Zod**                      | Schema validations |
 | **React Dropzone**           | File uploading     |
 | **Axios / Fetch**            | API calls          |
+
+⚙️ Environment Setup
+1️⃣ Clone the repository
+git clone https://github.com/amanofficial321/MoviesAppFE.git
+cd MoviesAppFE
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Setup environment variables
+
+Create a file:
+.env
+
+Add:
+NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
+NEXT_PUBLIC_STATIC_ASSETS_URL=http://localhost:5000
+
+4️⃣ Run the development server
+npm run dev
