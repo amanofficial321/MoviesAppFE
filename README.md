@@ -5,34 +5,22 @@ Users can log in, create movies, update movies, upload posters, and view paginat
 
 🚀 Features
 ✅ Authentication
-
-Login with email & password
-
-“Remember Me” option using localStorage
-
-Session-based authentication using sessionStorage
-
-Auto-redirect if already logged in
+-Login with email & password
+-“Remember Me” option using localStorage
+-Session-based authentication using sessionStorage
+-Auto-redirect if already logged in
 
 🎥 Movie Management
-
-Create new movie
-
-Update existing movie
-
-Upload movie poster (image) using react-dropzone
-
-Client-side form validation using Zod + React Hook Form
-
-Pagination (8 movies per page)
+-Create new movie
+-Update existing movie
+-Upload movie poster (image) using react-dropzone
+-Client-side form validation using Zod + React Hook Form
+-Pagination (8 movies per page)
 
 📱 Responsive UI
-
-Fully responsive (mobile → desktop)
-
-Clean grid layout for movie cards
-
-Custom reusable UI components
+-Fully responsive (mobile → desktop)
+-Clean grid layout for movie cards
+-Custom reusable UI components
 
 
 🛠️ Tech Stack
