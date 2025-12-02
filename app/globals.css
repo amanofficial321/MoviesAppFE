@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #093545;
+  --foreground: #ffffff;
+
+  --input-bg: #224957;
+  --card-bg: #092C39;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* ✅ Put global element styles INSIDE @layer base */
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: 600;
+  }
+
+  input {
+    background-color: var(--input-bg);
+    height: 45px;
+    border-radius: 10px;
+    padding: 0 15px;
+  }
+
+
+}
+
+.primary-button {
+  background-color: #2BD17E;
+  height: 54px;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cancel-button {
+  height: 54px;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid white;
+}
